@@ -18,7 +18,7 @@ public class Log implements Runnable{
 	@Override
 	public void run() {
 		//creamos el log.txt y escribimos en él cada 2 segundos
-		try (FileWriter file = new FileWriter("C:\\Users\\Daniela\\Desktop\\log.txt"); PrintWriter pw = new PrintWriter(file);) {
+		try (FileWriter file = new FileWriter("./log.txt"); PrintWriter pw = new PrintWriter(file);) {
 			for(int j=0;j<50;j++) {
 			for (int i = 0; i < 2; i++) {
 				writeThreadInfo(pw, Tconsumers[i], storage); //escribe en el archivo log.txt

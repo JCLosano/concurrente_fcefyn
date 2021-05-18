@@ -1,0 +1,12 @@
+  Id: Consumer 0
+  State: WAITING
+  Storage size: 1
+  ************************************
+
+  Id: Consumer 1
+  State: TIMED_WAITING
+  Storage size: 1
+  ************************************
+
+
+
